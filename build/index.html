@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8" />
+	<title></title>
+	<!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge"/><![endif]-->
+	<meta name="keywords" content="" />
+	<meta name="description" content="" />
+	<!-- build:cssVendor css/vendor.css -->
+	<link rel="stylesheet" href="libs/normalize-css/normalize.css" />
+	<link rel="stylesheet" href="libs/bootstrap-4-grid/grid.min.css" />
+	<link rel="stylesheet" href="libs/jquery-custom-scrollbar/jquery.custom-scrollbar.css" />
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous" />
+	<!-- endbuild -->
+	<!-- build:cssCustom css/main.css -->
+	<link rel="stylesheet" href="./css/main.css" />
+	<!-- endbuild -->
+	<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900|Playfair+Display:700i&amp;subset=cyrillic" rel="stylesheet" />
+	<!--[if lt IE 9]><script src="http://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.min.js"></script><![endif]-->
+</head>
+
+<body>
+	<div class="container">
+		<div class="header-wrapper">
+			<div class="header-info">
+				<form class="header-info__form"><select class="header-info__select-language"><option class="header-info__select-language-item">EN</option><option class="header-info__select-language-item">RU</option></select><select class="header-info__select-price"><option class="header-info__select-price-item">USD</option><option class="header-info__select-price-item">RUB</option></select></form>
+			</div>
+			<div class="header-navigation"><a class="header-navigation__menu-link" href="#">Блог</a><a class="header-navigation__menu-link" href="#">О нас</a><a class="header-navigation__menu-link" href="#">Галерея</a><a class="header-navigation__menu-link" href="#">Контакты</a></div>
+			<div class="header-user"><a class="header-login" href="#">Login</a><a class="header-cart" href=""><img class="header-cart__img" src="img/icons/shop-icon.png" alt="cart"/></a></div>
+		</div>
+	</div>
+	<hr class="header-underline" />
+	<div class="header">
+		<div class="header-bg-top">
+			<div class="container">
+				<div class="header-catalog-wrapper">
+					<div class="header-catalog-phone"><img class="header-catalog-phone__icon" src="img/icons/earphones-icon.png" alt="Телефон" />
+						<div class="header-catalog-phone__number"><a class="header-catalog-phone__number-link" href="tel:2221212">222-12-12</a></div>
+					</div>
+					<div class="header-catalog"><a class="header-catalog-menu-link" href="#">Монобукеты</a><a class="header-catalog-menu-link" href="#">Свадебные</a><a class="header-catalog-menu-link" href="#">Оригинальные</a><a class="header-catalog-menu-link" href="#">Декор</a><a class="header-catalog-menu-link--sales" href="#">Скидки</a></div>
+					<div class="header-catalog-search"><img class="header-catalog-search__icon" src="img/icons/icon-search.png" alt="Поиск" /></div>
+				</div>
+				<div class="header-block-wrapper">
+					<div class="header-title"><span class="header-title--modify">твой</span>букет</div>
+					<h1 class="header-subtitle">Неповторимый букет <span class="header-subtitle--modify"> для вашего<br/>исключительного случая </span></h1><a class="button button--header-catalog" href="#">выбрать</a></div>
+				<div class="header-slider-block">
+					<div class="header-slider">
+						<div class="header-slider__item"></div>
+						<div class="header-slider__item"></div>
+						<div class="header-slider__item--active"></div>
+						<div class="header-slider__item"></div>
+						<div class="header-slider__item"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container">
+		<div class="subscribe-wrapper">
+			<div class="subscribe-title">Подпишитесь на наши новости</div>
+			<div class="subscribe-subtitle">Чтобы всегда быть в курсе новинок и приятных акций!</div>
+			<form class="subscribe-action"><input class="subscribe-field" type="text" placeholder="введите свою почту" /><a class="button--subscribe" href="#">Подписаться</a></form>
+		</div>
+	</div>
+	<div class="catalog">
+		<div class="container">
+			<div class="catalog-wrapper">
+				<div class="catalog-card"><a class="align-icon" href="#"><img src="img/icons/align-icon.png" alt="Фильтр"/></a><a class="arrow-icon" href="#"><img src="img/icons/arrow-icon.png" alt="Далее"/></a>
+					<div class="catalog-card__img"><img src="img/catalog/flower1.jpg" alt="flower1.jpg" /></div>
+					<div class="catalog-card__slide"><a class="catalog-card__slide-item" href="#"></a><a class="catalog-card__slide-item--active" href="#"></a><a class="catalog-card__slide-item" href="#"></a><a class="catalog-card__slide-item" href="#"></a><a class="catalog-card__slide-item" href="#"></a></div>
+					<div class="catalog-card__title">Монобукет</div>
+					<div class="catalog-card__description">Cовершенно новый стильный формат букета</div>
+					<div class="catalog-card__button"><a class="button--small">выбрать</a></div>
+				</div>
+				<div class="catalog-card"><a class="align-icon" href="#"><img src="img/icons/align-icon.png" alt="Фильтр"/></a><a class="arrow-icon" href="#"><img src="img/icons/arrow-icon.png" alt="Далее"/></a>
+					<div class="catalog-card__img"><img src="img/catalog/flower2.jpg" alt="flower2.jpg" /></div>
+					<div class="catalog-card__slide"><a class="catalog-card__slide-item" href="#"></a><a class="catalog-card__slide-item--active" href="#"></a><a class="catalog-card__slide-item" href="#"></a><a class="catalog-card__slide-item" href="#"></a><a class="catalog-card__slide-item" href="#"></a></div>
+					<div class="catalog-card__title">Свадебный</div>
+					<div class="catalog-card__description">Искренняя любовь и самые возвышенные чувства в цветочном оформлении </div>
+					<div class="catalog-card__button"><a class="button--small">выбрать</a></div>
+				</div>
+				<div class="catalog-card"><a class="align-icon" href="#"><img src="img/icons/align-icon.png" alt="Фильтр"/></a><a class="arrow-icon" href="#"><img src="img/icons/arrow-icon.png" alt="Далее"/></a>
+					<div class="catalog-card__img"><img src="img/catalog/flower3.jpg" alt="flower3.jpg" /></div>
+					<div class="catalog-card__slide"><a class="catalog-card__slide-item" href="#"></a><a class="catalog-card__slide-item--active" href="#"></a><a class="catalog-card__slide-item" href="#"></a><a class="catalog-card__slide-item" href="#"></a><a class="catalog-card__slide-item" href="#"></a></div>
+					<div class="catalog-card__title">Уникальный</div>
+					<div class="catalog-card__description">Самые бурные фантазии флориста</div>
+					<div class="catalog-card__button"><a class="button--small">выбрать</a></div>
+				</div>
+				<div class="catalog-card"><a class="align-icon" href="#"><img src="img/icons/align-icon.png" alt="Фильтр"/></a><a class="arrow-icon" href="#"><img src="img/icons/arrow-icon.png" alt="Далее"/></a>
+					<div class="catalog-card__img"><img src="img/catalog/flower4.jpg" alt="flower4.jpg" /></div>
+					<div class="catalog-card__slide"><a class="catalog-card__slide-item" href="#"></a><a class="catalog-card__slide-item--active" href="#"></a><a class="catalog-card__slide-item" href="#"></a><a class="catalog-card__slide-item" href="#"></a><a class="catalog-card__slide-item" href="#"></a></div>
+					<div class="catalog-card__title">Декор</div>
+					<div class="catalog-card__description">Изящное и продуманное до мелочей оформление помещений</div>
+					<div class="catalog-card__button"><a class="button--small">выбрать</a></div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="sales">
+		<div class="container">
+			<h2 class="sales-title">скидки</h2>
+			<div class="sales-wrapper"><a class="sales-arrowLeft" href="#"><img src="img/icons/arrow-left-icon.svg" alt="Влево"/></a>
+				<div class="sales-block-card">
+					<div class="sales-card">
+						<div class="sales-card-nameplate"><img src="img/icons/popular-icon.png" alt="popular" /></div>
+						<div class="sales-card__img"><img src="img/sales/sales1.jpg" alt="sales1.jpg" /></div>
+						<div class="sales-card__title">Нежный</div>
+						<div class="sales-card__description">Свадебный букет</div>
+						<div class="sales-card__price">
+							<div class="sales-card__price-old">5700 р</div>
+							<div class="sales-card__price-new">4500 р</div>
+						</div>
+						<div class="sales-card-bar"><img src="img/icons/bar-icon.png" alt="Меню" /></div>
+					</div>
+					<div class="sales-card">
+						<div class="sales-card-nameplate"><img src="img/icons/new-icon.png" alt="new" /></div>
+						<div class="sales-card__img"><img src="img/sales/sales2.jpg" alt="sales2.jpg" /></div>
+						<div class="sales-card__title">Весенний</div>
+						<div class="sales-card__description">Оригинальный букет в ящике</div>
+						<div class="sales-card__price">
+							<div class="sales-card__price-old">4000 р</div>
+							<div class="sales-card__price-new">3200 р</div>
+						</div>
+						<div class="sales-card-bar"><img src="img/icons/bar-icon.png" alt="Меню" /></div>
+					</div>
+					<div class="sales-card">
+						<div class="sales-card-nameplate"><img src="img/icons/exclusive-icon.png" alt="exclusive" /></div>
+						<div class="sales-card__img"><img src="img/sales/sales3.jpg" alt="sales3.jpg" /></div>
+						<div class="sales-card__title">Осенний венок</div>
+						<div class="sales-card__description">Украшение помещения</div>
+						<div class="sales-card__price">
+							<div class="sales-card__price-old">2500 р</div>
+							<div class="sales-card__price-new">1999 р</div>
+						</div>
+						<div class="sales-card-bar"><img src="img/icons/bar-icon.png" alt="Меню" /></div>
+					</div>
+				</div><a class="sales-arrowRight" href="#"><img src="img/icons/arrow-right-icon.svg" alt="Вправо"/></a></div>
+		</div>
+	</div>
+	<div class="container">
+		<div class="footer-wrapper">
+			<div class="footer-left-block">
+				<p class="footer-search-title">Будьте в курсе всех новостей</p><input class="footer-search-input" type="text" placeholder="введите свою почту" /><a class="button--subscribe" href="#">Подписаться</a>
+				<div class="footer-social"><a class="footer-social-item" href="#"><i class="fab fa-facebook-f"></i></a><a class="footer-social-item" href="#"><i class="fab fa-twitter"></i></a><a class="footer-social-item" href="#"><i class="fab fa-instagram"></i></a></div>
+			</div>
+			<div class="footer-right-block">
+				<div class="footer-navigation"><a class="footer-navigation-item" href="#">О нас</a><a class="footer-navigation-item" href="#">Каталог</a><a class="footer-navigation-item" href="#">Блог</a><a class="footer-navigation-item" href="#">Контакты</a></div>
+				<hr class="footer-divide" />
+				<div class="footer-catalog"><a class="footer-catalog-item" href="#">Монобукет</a><a class="footer-catalog-item" href="#">Свадебный</a><a class="footer-catalog-item" href="#">Оригинальный</a><a class="footer-catalog-item" href="#">Декор</a></div>
+				<div class="footer-payment"><a class="footer-payment-item footer-payment-item--paypal" href="#"><img src="img/icons/paypal.png" alt="PayPal"/></a><a class="footer-payment-item footer-payment-item--visa" href="#"><img class="footer-payment-item" src="img/icons/visa.png" alt="Visa"/></a><a class="footer-payment-item footer-payment-item--mastercard" href="#"><img class="footer-payment-item" src="img/icons/mastercard.png" alt="MasterCard"/></a></div>
+			</div>
+		</div>
+	</div>
+	<!-- build:jsMain js/main.js -->
+	<script src="js/main.js"></script>
+	<!-- endbuild -->
+</body>
+
+</html>
